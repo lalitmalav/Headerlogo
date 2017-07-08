@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+ <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                     <malav_headerlogo>
+                                     <title>Malav Headerlogo</title>
+                                    </malav_headerlogo>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+</adminhtml>

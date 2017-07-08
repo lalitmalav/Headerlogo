@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Malav_Headerlogo>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Malav_Headerlogo>
+    </modules>
+</config> 

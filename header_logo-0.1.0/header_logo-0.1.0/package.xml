@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>header_logo</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>OSL 3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Admin can upload store logo from magento back-end.</summary>
+    <description>Store logo upload extension provides the functionality for the admin. Admin can upload store logo from magento back-end at same place where default megento will use for the logo. </description>
+    <notes>stable version</notes>
+    <authors><author><name>Leeladhar Malav</name><user>Malav</user><email>lalit.softengineer@gmail.com</email></author></authors>
+    <date>2016-03-08</date>
+    <time>16:16:58</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Malav_Headerlogo.xml" hash="2b51ae21fa5d9707288cf104b7b9f3d3"/></dir></target><target name="magecommunity"><dir name="Malav"><dir name="Headerlogo"><dir name="Block"><dir name="Html"><file name="Header.php" hash="647469813645faaa8b2afd3d503ffb6f"/></dir></dir><dir name="Helper"><file name="Data.php" hash="546fcb804b1d50d0ef40b89462cbded9"/></dir><dir name="Model"><dir name="System"><dir name="Config"><dir name="Backend"><dir name="Image"><file name="Logo.php" hash="aaa3037c820771144e77573e340040a1"/></dir></dir></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="eebcdad2041b81e70c1628927aa38a70"/><file name="config.xml" hash="739428724ff56fa1597e648d9fd2ca2c"/><file name="system.xml" hash="d2c01c93fba0f904b21109bdcbce414e"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

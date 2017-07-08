@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Malav_Headerlogo>
+            <version>0.1.0</version>
+        </Malav_Headerlogo>
+    </modules>
+    <adminhtml>
+		<acl>
+			<resources>
+				<all>
+					<title>Allow Everything</title>
+				</all>
+				<admin>
+					<children>
+						<Malav_Headerlogo>
+							<title>Malav Headerlogo</title>
+							<sort_order>10</sort_order>
+						</Malav_Headerlogo>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+    </adminhtml>   
+    <global>
+        <models>
+            <headerlogo>
+                <class>Malav_Headerlogo_Model</class>
+            </headerlogo>
+        </models>
+		<blocks>
+            <page>
+                <rewrite>
+                    <html_header>Malav_Headerlogo_Block_Html_Header</html_header>
+                </rewrite>
+            </page>
+        </blocks>
+		 <helpers>
+            <headerlogo>
+                <class>Malav_Headerlogo_Helper</class>
+            </headerlogo>
+        </helpers>
+    </global>
+	<default>
+		<malav_headerlogo>
+			<header_setting>
+                <enabled>1</enabled>						
+			</header_setting>      
+		</malav_headerlogo>
+	</default>
+</config>
